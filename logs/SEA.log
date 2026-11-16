@@ -1,0 +1,63 @@
+[2026-11-16T05:43:06.615Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_INIT] Initialized HUB peer node SEA (Seattle-Tacoma International Airport); listening on 127.0.0.1:5002.
+[2026-11-16T05:43:06.652Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59186.
+[2026-11-16T05:43:06.652Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-105 (from: JNU, layover: nil, to: SEA, hop: 1, passenger: "Liam Mercer") from 127.0.0.1:59186.
+[2026-11-16T05:43:06.652Z] [SEA (HUB 127.0.0.1:5002)] [FINAL_ARRIVAL] Passenger "Liam Mercer" (MSG-105) arrived at final destination SEA via direct path [JNU -> SEA] (hops: 1).
+[2026-11-16T05:43:06.652Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59186.
+[2026-11-16T05:43:06.654Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59187.
+[2026-11-16T05:43:06.654Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-106 (from: KTN, layover: nil, to: SEA, hop: 1, passenger: "Hannah Cho") from 127.0.0.1:59187.
+[2026-11-16T05:43:06.654Z] [SEA (HUB 127.0.0.1:5002)] [FINAL_ARRIVAL] Passenger "Hannah Cho" (MSG-106) arrived at final destination SEA via direct path [KTN -> SEA] (hops: 1).
+[2026-11-16T05:43:06.654Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59187.
+[2026-11-16T05:43:06.655Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59188.
+[2026-11-16T05:43:06.655Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-107 (from: SIT, layover: nil, to: SEA, hop: 1, passenger: "Owen Alsek") from 127.0.0.1:59188.
+[2026-11-16T05:43:06.655Z] [SEA (HUB 127.0.0.1:5002)] [FINAL_ARRIVAL] Passenger "Owen Alsek" (MSG-107) arrived at final destination SEA via direct path [SIT -> SEA] (hops: 1).
+[2026-11-16T05:43:06.655Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59188.
+[2026-11-16T05:43:06.656Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to FAI (127.0.0.1:5003) for MSG-201.
+[2026-11-16T05:43:06.656Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-201 (route: SEA -> FAI, hop: 1, passenger: "Elena Novak") via 127.0.0.1:59189 -> 127.0.0.1:5003.
+[2026-11-16T05:43:06.656Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-201","node":"FAI","status":"ACK"} from FAI for MSG-201.
+[2026-11-16T05:43:06.657Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59189 after sending MSG-201.
+[2026-11-16T05:43:06.660Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to KTN (127.0.0.1:5017) for MSG-204.
+[2026-11-16T05:43:06.660Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-204 (route: SEA -> KTN, hop: 1, passenger: "Claire Dawson") via 127.0.0.1:59192 -> 127.0.0.1:5017.
+[2026-11-16T05:43:06.661Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-204","node":"KTN","status":"ACK"} from KTN for MSG-204.
+[2026-11-16T05:43:06.661Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59192 after sending MSG-204.
+[2026-11-16T05:43:06.661Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59193.
+[2026-11-16T05:43:06.661Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-301 (from: ANC, layover: nil, to: SEA, hop: 1, passenger: "Daniel Brooks") from 127.0.0.1:59193.
+[2026-11-16T05:43:06.661Z] [SEA (HUB 127.0.0.1:5002)] [FINAL_ARRIVAL] Passenger "Daniel Brooks" (MSG-301) arrived at final destination SEA via direct path [ANC -> SEA] (hops: 1).
+[2026-11-16T05:43:06.662Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59193.
+[2026-11-16T05:43:06.662Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to ANC (127.0.0.1:5001) for MSG-302.
+[2026-11-16T05:43:06.662Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-302 (route: SEA -> ANC, hop: 1, passenger: "Maya Lin") via 127.0.0.1:59194 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.662Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-302","node":"ANC","status":"ACK"} from ANC for MSG-302.
+[2026-11-16T05:43:06.663Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59194 after sending MSG-302.
+[2026-11-16T05:43:06.688Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59215.
+[2026-11-16T05:43:06.688Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-501 (from: JNU, layover: "SEA", to: SIT, hop: 1, passenger: "Isaac Morales") from 127.0.0.1:59215.
+[2026-11-16T05:43:06.688Z] [SEA (HUB 127.0.0.1:5002)] [HUB_ROUTING] Hub SEA interpreted MSG-501 (from: JNU, layover: SEA, to: SIT, passenger: "Isaac Morales"): acting as layover transit, forwarding to final destination SIT (127.0.0.1:5005).
+[2026-11-16T05:43:06.688Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to SIT (127.0.0.1:5005) for MSG-501.
+[2026-11-16T05:43:06.689Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59215.
+[2026-11-16T05:43:06.689Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-501 (route: JNU -> SEA -> SIT, hop: 2, passenger: "Isaac Morales") via 127.0.0.1:59216 -> 127.0.0.1:5005.
+[2026-11-16T05:43:06.690Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-501","node":"SIT","status":"ACK"} from SIT for MSG-501.
+[2026-11-16T05:43:06.690Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59217.
+[2026-11-16T05:43:06.690Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59216 after sending MSG-501.
+[2026-11-16T05:43:06.692Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-502 (from: KTN, layover: "SEA", to: JNU, hop: 1, passenger: "Rachel Bennett") from 127.0.0.1:59217.
+[2026-11-16T05:43:06.692Z] [SEA (HUB 127.0.0.1:5002)] [HUB_ROUTING] Hub SEA interpreted MSG-502 (from: KTN, layover: SEA, to: JNU, passenger: "Rachel Bennett"): acting as layover transit, forwarding to final destination JNU (127.0.0.1:5004).
+[2026-11-16T05:43:06.692Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to JNU (127.0.0.1:5004) for MSG-502.
+[2026-11-16T05:43:06.692Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59217.
+[2026-11-16T05:43:06.692Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-502 (route: KTN -> SEA -> JNU, hop: 2, passenger: "Rachel Bennett") via 127.0.0.1:59218 -> 127.0.0.1:5004.
+[2026-11-16T05:43:06.693Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-502","node":"JNU","status":"ACK"} from JNU for MSG-502.
+[2026-11-16T05:43:06.693Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59219.
+[2026-11-16T05:43:06.693Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59218 after sending MSG-502.
+[2026-11-16T05:43:06.694Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-503 (from: FAI, layover: "SEA", to: KTN, hop: 1, passenger: "Thomas Alvarez") from 127.0.0.1:59219.
+[2026-11-16T05:43:06.694Z] [SEA (HUB 127.0.0.1:5002)] [HUB_ROUTING] Hub SEA interpreted MSG-503 (from: FAI, layover: SEA, to: KTN, passenger: "Thomas Alvarez"): acting as layover transit, forwarding to final destination KTN (127.0.0.1:5017).
+[2026-11-16T05:43:06.694Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to KTN (127.0.0.1:5017) for MSG-503.
+[2026-11-16T05:43:06.694Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59219.
+[2026-11-16T05:43:06.694Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-503 (route: FAI -> SEA -> KTN, hop: 2, passenger: "Thomas Alvarez") via 127.0.0.1:59220 -> 127.0.0.1:5017.
+[2026-11-16T05:43:06.694Z] [SEA (HUB 127.0.0.1:5002)] [CLIENT_CONNECT] Connecting TCP client from SEA to ANC (127.0.0.1:5001) for MSG-601.
+[2026-11-16T05:43:06.695Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-503","node":"KTN","status":"ACK"} from KTN for MSG-503.
+[2026-11-16T05:43:06.695Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_SEND] Sending MSG-601 (route: SEA -> ANC -> BRW, hop: 1, passenger: "Olivia Hayes") via 127.0.0.1:59221 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.695Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59220 after sending MSG-503.
+[2026-11-16T05:43:06.696Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received {"msg_id":"MSG-601","node":"ANC","status":"ACK"} from ANC for MSG-601.
+[2026-11-16T05:43:06.696Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59221 after sending MSG-601.
+[2026-11-16T05:43:06.698Z] [SEA (HUB 127.0.0.1:5002)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59224.
+[2026-11-16T05:43:06.698Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_RECV] Received packet MSG-602 (from: OTZ, layover: "ANC", to: SEA, hop: 2, passenger: "Benjamin Park") from 127.0.0.1:59224.
+[2026-11-16T05:43:06.698Z] [SEA (HUB 127.0.0.1:5002)] [FINAL_ARRIVAL] Passenger "Benjamin Park" (MSG-602) arrived at final destination SEA via layover path [OTZ -> ANC -> SEA] (hops: 2).
+[2026-11-16T05:43:06.698Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59224.
+[2026-11-16T05:43:06.702Z] [SEA (HUB 127.0.0.1:5002)] [NODE_SHUTDOWN] Detected termination of input for SEA; shutting down TCP server on 127.0.0.1:5002.
+[2026-11-16T05:43:06.702Z] [SEA (HUB 127.0.0.1:5002)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5002.

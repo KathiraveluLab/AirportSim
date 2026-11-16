@@ -1,0 +1,21 @@
+[2026-11-16T05:43:06.625Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_INIT] Initialized SPOKE peer node BRW (Wiley Post-Will Rogers Memorial Airport); listening on 127.0.0.1:5013.
+[2026-11-16T05:43:06.633Z] [BRW (SPOKE 127.0.0.1:5013)] [CLIENT_CONNECT] Connecting TCP client from BRW to ANC (127.0.0.1:5001) for MSG-101.
+[2026-11-16T05:43:06.640Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_SEND] Sending MSG-101 (route: BRW -> ANC, hop: 1, passenger: "Alice Kugzruk") via 127.0.0.1:59182 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.646Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_RECV] Received {"msg_id":"MSG-101","node":"ANC","status":"ACK"} from ANC for MSG-101.
+[2026-11-16T05:43:06.647Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59182 after sending MSG-101.
+[2026-11-16T05:43:06.658Z] [BRW (SPOKE 127.0.0.1:5013)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59190.
+[2026-11-16T05:43:06.658Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_RECV] Received packet MSG-202 (from: ANC, layover: nil, to: BRW, hop: 1, passenger: "Toby Ahmaogak") from 127.0.0.1:59190.
+[2026-11-16T05:43:06.658Z] [BRW (SPOKE 127.0.0.1:5013)] [FINAL_ARRIVAL] Passenger "Toby Ahmaogak" (MSG-202) arrived at final destination BRW via direct path [ANC -> BRW] (hops: 1).
+[2026-11-16T05:43:06.658Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59190.
+[2026-11-16T05:43:06.667Z] [BRW (SPOKE 127.0.0.1:5013)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59196.
+[2026-11-16T05:43:06.667Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_RECV] Received packet MSG-401 (from: FAI, layover: "ANC", to: BRW, hop: 2, passenger: "Samuel Panik") from 127.0.0.1:59196.
+[2026-11-16T05:43:06.667Z] [BRW (SPOKE 127.0.0.1:5013)] [FINAL_ARRIVAL] Passenger "Samuel Panik" (MSG-401) arrived at final destination BRW via layover path [FAI -> ANC -> BRW] (hops: 2).
+[2026-11-16T05:43:06.669Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59196.
+[2026-11-16T05:43:06.696Z] [BRW (SPOKE 127.0.0.1:5013)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59222.
+[2026-11-16T05:43:06.696Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_RECV] Received packet MSG-601 (from: SEA, layover: "ANC", to: BRW, hop: 2, passenger: "Olivia Hayes") from 127.0.0.1:59222.
+[2026-11-16T05:43:06.696Z] [BRW (SPOKE 127.0.0.1:5013)] [FINAL_ARRIVAL] Passenger "Olivia Hayes" (MSG-601) arrived at final destination BRW via layover path [SEA -> ANC -> BRW] (hops: 2).
+[2026-11-16T05:43:06.697Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59222.
+[2026-11-16T05:43:06.698Z] [BRW (SPOKE 127.0.0.1:5013)] [POLICY_REJECT] Blocked passenger "Non-Hub Transit Test" on BRW -> "OTZ" (layover: "FAI", airline: "Alaska Airlines"): Airport FAI cannot serve as a transit point; only hubs ANC and SEA permit layovers.
+[2026-11-16T05:43:06.699Z] [BRW (SPOKE 127.0.0.1:5013)] [POLICY_REJECT] Blocked passenger "Direct Spoke Test" on BRW -> "OTZ" (layover: nil, airline: "Alaska Airlines"): Direct flight between spoke airports BRW and OTZ is prohibited; a layover at ANC or SEA is required.
+[2026-11-16T05:43:06.703Z] [BRW (SPOKE 127.0.0.1:5013)] [NODE_SHUTDOWN] Detected termination of input for BRW; shutting down TCP server on 127.0.0.1:5013.
+[2026-11-16T05:43:06.703Z] [BRW (SPOKE 127.0.0.1:5013)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5013.

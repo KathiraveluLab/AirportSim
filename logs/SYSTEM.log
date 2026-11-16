@@ -1,0 +1,37 @@
+[2026-11-16T05:43:06.630Z] [SYSTEM] [SIM_START] Booting Alaska Airlines hub-and-spoke simulation across 17 airports (2 hubs: ANC, SEA; 15 spokes).
+[2026-11-16T05:43:06.630Z] [SYSTEM] [NETWORK_READY] All 17 airport TCP server sockets initialized and listening.
+[2026-11-16T05:43:06.631Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-101: BRW -> ANC for passenger "Alice Kugzruk" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.647Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-102: FAI -> ANC for passenger "Marcus Chen" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.649Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-103: OTZ -> ANC for passenger "Nora Savok" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.650Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-104: ADK -> ANC for passenger "Grace Aleut" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.652Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-105: JNU -> SEA for passenger "Liam Mercer" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.652Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-106: KTN -> SEA for passenger "Hannah Cho" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.654Z] [SYSTEM] [SCENARIO] [Direct Spoke->Hub] Dispatching MSG-107: SIT -> SEA for passenger "Owen Alsek" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.656Z] [SYSTEM] [SCENARIO] [Direct Hub->Spoke] Dispatching MSG-201: SEA -> FAI for passenger "Elena Novak" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.657Z] [SYSTEM] [SCENARIO] [Direct Hub->Spoke] Dispatching MSG-202: ANC -> BRW for passenger "Toby Ahmaogak" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.658Z] [SYSTEM] [SCENARIO] [Direct Hub->Spoke] Dispatching MSG-203: ANC -> DUT for passenger "Victor Tan" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.660Z] [SYSTEM] [SCENARIO] [Direct Hub->Spoke] Dispatching MSG-204: SEA -> KTN for passenger "Claire Dawson" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.661Z] [SYSTEM] [SCENARIO] [Direct Hub<->Hub] Dispatching MSG-301: ANC -> SEA for passenger "Daniel Brooks" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.662Z] [SYSTEM] [SCENARIO] [Direct Hub<->Hub] Dispatching MSG-302: SEA -> ANC for passenger "Maya Lin" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.663Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-401: FAI -> ANC -> BRW for passenger "Samuel Panik" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.667Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-402: OTZ -> ANC -> NME for passenger "Rosa Ivanoff" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.670Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-403: BET -> ANC -> AKN for passenger "Kevin Wassillie" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.673Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-404: DLG -> ANC -> SCC for passenger "Laura Berg" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.675Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-405: CDV -> ANC -> ADQ for passenger "Peter Eklund" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.677Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-406: DUT -> ANC -> ADK for passenger "Sophia Krukoff" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.679Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-407: ADQ -> ANC -> CDV for passenger "Evan Lindholm" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.681Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-408: SCC -> ANC -> OTZ for passenger "Nina Tagarook" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.684Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-409: NME -> ANC -> BET for passenger "Caleb Okpeaha" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.686Z] [SYSTEM] [SCENARIO] [Layover via ANC] Dispatching MSG-410: AKN -> ANC -> DLG for passenger "Julia Trefon" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.688Z] [SYSTEM] [SCENARIO] [Layover via SEA] Dispatching MSG-501: JNU -> SEA -> SIT for passenger "Isaac Morales" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.690Z] [SYSTEM] [SCENARIO] [Layover via SEA] Dispatching MSG-502: KTN -> SEA -> JNU for passenger "Rachel Bennett" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.693Z] [SYSTEM] [SCENARIO] [Layover via SEA] Dispatching MSG-503: FAI -> SEA -> KTN for passenger "Thomas Alvarez" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.694Z] [SYSTEM] [SCENARIO] [Cross-Hub Layover] Dispatching MSG-601: SEA -> ANC -> BRW for passenger "Olivia Hayes" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.696Z] [SYSTEM] [SCENARIO] [Cross-Hub Layover] Dispatching MSG-602: OTZ -> ANC -> SEA for passenger "Benjamin Park" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.698Z] [SYSTEM] [SCENARIO] [Policy Rejection] Dispatching MSG-901: BRW -> FAI -> OTZ for passenger "Non-Hub Transit Test" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.698Z] [SYSTEM] [SCENARIO] [Policy Rejection] Dispatching MSG-902: BRW -> OTZ for passenger "Direct Spoke Test" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.699Z] [SYSTEM] [SCENARIO] [Policy Rejection] Dispatching MSG-903: ANC -> LAX for passenger "Out-of-Scope Airport Test" (airline: Alaska Airlines).
+[2026-11-16T05:43:06.699Z] [SYSTEM] [SCENARIO] [Policy Rejection] Dispatching MSG-904: ANC -> SEA for passenger "Non-Alaska Carrier Test" (airline: Delta Air Lines).
+[2026-11-16T05:43:06.699Z] [SYSTEM] [SUMMARY] Simulation complete: 28 delivered over TCP, 4 rejected by policy.
+[2026-11-16T05:43:06.699Z] [SYSTEM] [SIM_SHUTDOWN] Initiating graceful shutdown across 17 airport nodes.
+[2026-11-16T05:43:06.704Z] [SYSTEM] [SIM_COMPLETE] All airport sockets closed cleanly.

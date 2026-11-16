@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.619Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_INIT] Initialized SPOKE peer node ADK (Adak Airport); listening on 127.0.0.1:5006.
+[2026-11-16T05:43:06.650Z] [ADK (SPOKE 127.0.0.1:5006)] [CLIENT_CONNECT] Connecting TCP client from ADK to ANC (127.0.0.1:5001) for MSG-104.
+[2026-11-16T05:43:06.650Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_SEND] Sending MSG-104 (route: ADK -> ANC, hop: 1, passenger: "Grace Aleut") via 127.0.0.1:59185 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.652Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_RECV] Received {"msg_id":"MSG-104","node":"ANC","status":"ACK"} from ANC for MSG-104.
+[2026-11-16T05:43:06.652Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59185 after sending MSG-104.
+[2026-11-16T05:43:06.679Z] [ADK (SPOKE 127.0.0.1:5006)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59206.
+[2026-11-16T05:43:06.679Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_RECV] Received packet MSG-406 (from: DUT, layover: "ANC", to: ADK, hop: 2, passenger: "Sophia Krukoff") from 127.0.0.1:59206.
+[2026-11-16T05:43:06.679Z] [ADK (SPOKE 127.0.0.1:5006)] [FINAL_ARRIVAL] Passenger "Sophia Krukoff" (MSG-406) arrived at final destination ADK via layover path [DUT -> ANC -> ADK] (hops: 2).
+[2026-11-16T05:43:06.680Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59206.
+[2026-11-16T05:43:06.702Z] [ADK (SPOKE 127.0.0.1:5006)] [NODE_SHUTDOWN] Detected termination of input for ADK; shutting down TCP server on 127.0.0.1:5006.
+[2026-11-16T05:43:06.703Z] [ADK (SPOKE 127.0.0.1:5006)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5006.

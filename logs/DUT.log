@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.629Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_INIT] Initialized SPOKE peer node DUT (Unalaska Airport); listening on 127.0.0.1:5016.
+[2026-11-16T05:43:06.658Z] [DUT (SPOKE 127.0.0.1:5016)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59191.
+[2026-11-16T05:43:06.658Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_RECV] Received packet MSG-203 (from: ANC, layover: nil, to: DUT, hop: 1, passenger: "Victor Tan") from 127.0.0.1:59191.
+[2026-11-16T05:43:06.658Z] [DUT (SPOKE 127.0.0.1:5016)] [FINAL_ARRIVAL] Passenger "Victor Tan" (MSG-203) arrived at final destination DUT via direct path [ANC -> DUT] (hops: 1).
+[2026-11-16T05:43:06.658Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59191.
+[2026-11-16T05:43:06.677Z] [DUT (SPOKE 127.0.0.1:5016)] [CLIENT_CONNECT] Connecting TCP client from DUT to ANC (127.0.0.1:5001) for MSG-406.
+[2026-11-16T05:43:06.678Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_SEND] Sending MSG-406 (route: DUT -> ANC -> ADK, hop: 1, passenger: "Sophia Krukoff") via 127.0.0.1:59205 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.679Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_RECV] Received {"msg_id":"MSG-406","node":"ANC","status":"ACK"} from ANC for MSG-406.
+[2026-11-16T05:43:06.679Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59205 after sending MSG-406.
+[2026-11-16T05:43:06.703Z] [DUT (SPOKE 127.0.0.1:5016)] [NODE_SHUTDOWN] Detected termination of input for DUT; shutting down TCP server on 127.0.0.1:5016.
+[2026-11-16T05:43:06.703Z] [DUT (SPOKE 127.0.0.1:5016)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5016.

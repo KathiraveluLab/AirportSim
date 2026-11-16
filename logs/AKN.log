@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.624Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_INIT] Initialized SPOKE peer node AKN (King Salmon Airport); listening on 127.0.0.1:5011.
+[2026-11-16T05:43:06.672Z] [AKN (SPOKE 127.0.0.1:5011)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59200.
+[2026-11-16T05:43:06.673Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_RECV] Received packet MSG-403 (from: BET, layover: "ANC", to: AKN, hop: 2, passenger: "Kevin Wassillie") from 127.0.0.1:59200.
+[2026-11-16T05:43:06.673Z] [AKN (SPOKE 127.0.0.1:5011)] [FINAL_ARRIVAL] Passenger "Kevin Wassillie" (MSG-403) arrived at final destination AKN via layover path [BET -> ANC -> AKN] (hops: 2).
+[2026-11-16T05:43:06.673Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59200.
+[2026-11-16T05:43:06.686Z] [AKN (SPOKE 127.0.0.1:5011)] [CLIENT_CONNECT] Connecting TCP client from AKN to ANC (127.0.0.1:5001) for MSG-410.
+[2026-11-16T05:43:06.686Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_SEND] Sending MSG-410 (route: AKN -> ANC -> DLG, hop: 1, passenger: "Julia Trefon") via 127.0.0.1:59213 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.687Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_RECV] Received {"msg_id":"MSG-410","node":"ANC","status":"ACK"} from ANC for MSG-410.
+[2026-11-16T05:43:06.688Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59213 after sending MSG-410.
+[2026-11-16T05:43:06.703Z] [AKN (SPOKE 127.0.0.1:5011)] [NODE_SHUTDOWN] Detected termination of input for AKN; shutting down TCP server on 127.0.0.1:5011.
+[2026-11-16T05:43:06.703Z] [AKN (SPOKE 127.0.0.1:5011)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5011.

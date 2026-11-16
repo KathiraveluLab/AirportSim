@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.619Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_INIT] Initialized SPOKE peer node SIT (Sitka Rocky Gutierrez Airport); listening on 127.0.0.1:5005.
+[2026-11-16T05:43:06.654Z] [SIT (SPOKE 127.0.0.1:5005)] [CLIENT_CONNECT] Connecting TCP client from SIT to SEA (127.0.0.1:5002) for MSG-107.
+[2026-11-16T05:43:06.655Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_SEND] Sending MSG-107 (route: SIT -> SEA, hop: 1, passenger: "Owen Alsek") via 127.0.0.1:59188 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.655Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_RECV] Received {"msg_id":"MSG-107","node":"SEA","status":"ACK"} from SEA for MSG-107.
+[2026-11-16T05:43:06.655Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59188 after sending MSG-107.
+[2026-11-16T05:43:06.689Z] [SIT (SPOKE 127.0.0.1:5005)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59216.
+[2026-11-16T05:43:06.689Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_RECV] Received packet MSG-501 (from: JNU, layover: "SEA", to: SIT, hop: 2, passenger: "Isaac Morales") from 127.0.0.1:59216.
+[2026-11-16T05:43:06.690Z] [SIT (SPOKE 127.0.0.1:5005)] [FINAL_ARRIVAL] Passenger "Isaac Morales" (MSG-501) arrived at final destination SIT via layover path [JNU -> SEA -> SIT] (hops: 2).
+[2026-11-16T05:43:06.690Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59216.
+[2026-11-16T05:43:06.702Z] [SIT (SPOKE 127.0.0.1:5005)] [NODE_SHUTDOWN] Detected termination of input for SIT; shutting down TCP server on 127.0.0.1:5005.
+[2026-11-16T05:43:06.702Z] [SIT (SPOKE 127.0.0.1:5005)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5005.

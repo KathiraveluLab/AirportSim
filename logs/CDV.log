@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.627Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_INIT] Initialized SPOKE peer node CDV (Merle K. (Mudhole) Smith Airport); listening on 127.0.0.1:5015.
+[2026-11-16T05:43:06.675Z] [CDV (SPOKE 127.0.0.1:5015)] [CLIENT_CONNECT] Connecting TCP client from CDV to ANC (127.0.0.1:5001) for MSG-405.
+[2026-11-16T05:43:06.676Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_SEND] Sending MSG-405 (route: CDV -> ANC -> ADQ, hop: 1, passenger: "Peter Eklund") via 127.0.0.1:59203 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.677Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_RECV] Received {"msg_id":"MSG-405","node":"ANC","status":"ACK"} from ANC for MSG-405.
+[2026-11-16T05:43:06.677Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59203 after sending MSG-405.
+[2026-11-16T05:43:06.681Z] [CDV (SPOKE 127.0.0.1:5015)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59208.
+[2026-11-16T05:43:06.681Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_RECV] Received packet MSG-407 (from: ADQ, layover: "ANC", to: CDV, hop: 2, passenger: "Evan Lindholm") from 127.0.0.1:59208.
+[2026-11-16T05:43:06.681Z] [CDV (SPOKE 127.0.0.1:5015)] [FINAL_ARRIVAL] Passenger "Evan Lindholm" (MSG-407) arrived at final destination CDV via layover path [ADQ -> ANC -> CDV] (hops: 2).
+[2026-11-16T05:43:06.682Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59208.
+[2026-11-16T05:43:06.703Z] [CDV (SPOKE 127.0.0.1:5015)] [NODE_SHUTDOWN] Detected termination of input for CDV; shutting down TCP server on 127.0.0.1:5015.
+[2026-11-16T05:43:06.703Z] [CDV (SPOKE 127.0.0.1:5015)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5015.

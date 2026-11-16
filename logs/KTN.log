@@ -1,0 +1,19 @@
+[2026-11-16T05:43:06.629Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_INIT] Initialized SPOKE peer node KTN (Ketchikan International Airport); listening on 127.0.0.1:5017.
+[2026-11-16T05:43:06.654Z] [KTN (SPOKE 127.0.0.1:5017)] [CLIENT_CONNECT] Connecting TCP client from KTN to SEA (127.0.0.1:5002) for MSG-106.
+[2026-11-16T05:43:06.654Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_SEND] Sending MSG-106 (route: KTN -> SEA, hop: 1, passenger: "Hannah Cho") via 127.0.0.1:59187 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.654Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_RECV] Received {"msg_id":"MSG-106","node":"SEA","status":"ACK"} from SEA for MSG-106.
+[2026-11-16T05:43:06.654Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59187 after sending MSG-106.
+[2026-11-16T05:43:06.660Z] [KTN (SPOKE 127.0.0.1:5017)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59192.
+[2026-11-16T05:43:06.660Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_RECV] Received packet MSG-204 (from: SEA, layover: nil, to: KTN, hop: 1, passenger: "Claire Dawson") from 127.0.0.1:59192.
+[2026-11-16T05:43:06.660Z] [KTN (SPOKE 127.0.0.1:5017)] [FINAL_ARRIVAL] Passenger "Claire Dawson" (MSG-204) arrived at final destination KTN via direct path [SEA -> KTN] (hops: 1).
+[2026-11-16T05:43:06.661Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59192.
+[2026-11-16T05:43:06.690Z] [KTN (SPOKE 127.0.0.1:5017)] [CLIENT_CONNECT] Connecting TCP client from KTN to SEA (127.0.0.1:5002) for MSG-502.
+[2026-11-16T05:43:06.690Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_SEND] Sending MSG-502 (route: KTN -> SEA -> JNU, hop: 1, passenger: "Rachel Bennett") via 127.0.0.1:59217 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.692Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_RECV] Received {"msg_id":"MSG-502","node":"SEA","status":"ACK"} from SEA for MSG-502.
+[2026-11-16T05:43:06.692Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59217 after sending MSG-502.
+[2026-11-16T05:43:06.694Z] [KTN (SPOKE 127.0.0.1:5017)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59220.
+[2026-11-16T05:43:06.694Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_RECV] Received packet MSG-503 (from: FAI, layover: "SEA", to: KTN, hop: 2, passenger: "Thomas Alvarez") from 127.0.0.1:59220.
+[2026-11-16T05:43:06.694Z] [KTN (SPOKE 127.0.0.1:5017)] [FINAL_ARRIVAL] Passenger "Thomas Alvarez" (MSG-503) arrived at final destination KTN via layover path [FAI -> SEA -> KTN] (hops: 2).
+[2026-11-16T05:43:06.694Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59220.
+[2026-11-16T05:43:06.703Z] [KTN (SPOKE 127.0.0.1:5017)] [NODE_SHUTDOWN] Detected termination of input for KTN; shutting down TCP server on 127.0.0.1:5017.
+[2026-11-16T05:43:06.704Z] [KTN (SPOKE 127.0.0.1:5017)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5017.

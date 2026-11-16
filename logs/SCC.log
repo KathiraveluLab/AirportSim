@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.627Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_INIT] Initialized SPOKE peer node SCC (Deadhorse Airport); listening on 127.0.0.1:5014.
+[2026-11-16T05:43:06.675Z] [SCC (SPOKE 127.0.0.1:5014)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59202.
+[2026-11-16T05:43:06.675Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_RECV] Received packet MSG-404 (from: DLG, layover: "ANC", to: SCC, hop: 2, passenger: "Laura Berg") from 127.0.0.1:59202.
+[2026-11-16T05:43:06.675Z] [SCC (SPOKE 127.0.0.1:5014)] [FINAL_ARRIVAL] Passenger "Laura Berg" (MSG-404) arrived at final destination SCC via layover path [DLG -> ANC -> SCC] (hops: 2).
+[2026-11-16T05:43:06.676Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59202.
+[2026-11-16T05:43:06.681Z] [SCC (SPOKE 127.0.0.1:5014)] [CLIENT_CONNECT] Connecting TCP client from SCC to ANC (127.0.0.1:5001) for MSG-408.
+[2026-11-16T05:43:06.682Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_SEND] Sending MSG-408 (route: SCC -> ANC -> OTZ, hop: 1, passenger: "Nina Tagarook") via 127.0.0.1:59209 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.682Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_RECV] Received {"msg_id":"MSG-408","node":"ANC","status":"ACK"} from ANC for MSG-408.
+[2026-11-16T05:43:06.684Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59209 after sending MSG-408.
+[2026-11-16T05:43:06.703Z] [SCC (SPOKE 127.0.0.1:5014)] [NODE_SHUTDOWN] Detected termination of input for SCC; shutting down TCP server on 127.0.0.1:5014.
+[2026-11-16T05:43:06.703Z] [SCC (SPOKE 127.0.0.1:5014)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5014.

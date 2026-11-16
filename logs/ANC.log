@@ -1,0 +1,133 @@
+[2026-11-16T05:43:06.608Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_INIT] Initialized HUB peer node ANC (Ted Stevens Anchorage International Airport); listening on 127.0.0.1:5001.
+[2026-11-16T05:43:06.634Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59182.
+[2026-11-16T05:43:06.645Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-101 (from: BRW, layover: nil, to: ANC, hop: 1, passenger: "Alice Kugzruk") from 127.0.0.1:59182.
+[2026-11-16T05:43:06.645Z] [ANC (HUB 127.0.0.1:5001)] [FINAL_ARRIVAL] Passenger "Alice Kugzruk" (MSG-101) arrived at final destination ANC via direct path [BRW -> ANC] (hops: 1).
+[2026-11-16T05:43:06.646Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59182.
+[2026-11-16T05:43:06.648Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59183.
+[2026-11-16T05:43:06.649Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-102 (from: FAI, layover: nil, to: ANC, hop: 1, passenger: "Marcus Chen") from 127.0.0.1:59183.
+[2026-11-16T05:43:06.649Z] [ANC (HUB 127.0.0.1:5001)] [FINAL_ARRIVAL] Passenger "Marcus Chen" (MSG-102) arrived at final destination ANC via direct path [FAI -> ANC] (hops: 1).
+[2026-11-16T05:43:06.649Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59183.
+[2026-11-16T05:43:06.649Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59184.
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-103 (from: OTZ, layover: nil, to: ANC, hop: 1, passenger: "Nora Savok") from 127.0.0.1:59184.
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [FINAL_ARRIVAL] Passenger "Nora Savok" (MSG-103) arrived at final destination ANC via direct path [OTZ -> ANC] (hops: 1).
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59184.
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59185.
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-104 (from: ADK, layover: nil, to: ANC, hop: 1, passenger: "Grace Aleut") from 127.0.0.1:59185.
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [FINAL_ARRIVAL] Passenger "Grace Aleut" (MSG-104) arrived at final destination ANC via direct path [ADK -> ANC] (hops: 1).
+[2026-11-16T05:43:06.650Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59185.
+[2026-11-16T05:43:06.657Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to BRW (127.0.0.1:5013) for MSG-202.
+[2026-11-16T05:43:06.658Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-202 (route: ANC -> BRW, hop: 1, passenger: "Toby Ahmaogak") via 127.0.0.1:59190 -> 127.0.0.1:5013.
+[2026-11-16T05:43:06.658Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-202","node":"BRW","status":"ACK"} from BRW for MSG-202.
+[2026-11-16T05:43:06.658Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59190 after sending MSG-202.
+[2026-11-16T05:43:06.658Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to DUT (127.0.0.1:5016) for MSG-203.
+[2026-11-16T05:43:06.658Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-203 (route: ANC -> DUT, hop: 1, passenger: "Victor Tan") via 127.0.0.1:59191 -> 127.0.0.1:5016.
+[2026-11-16T05:43:06.660Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-203","node":"DUT","status":"ACK"} from DUT for MSG-203.
+[2026-11-16T05:43:06.660Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59191 after sending MSG-203.
+[2026-11-16T05:43:06.661Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to SEA (127.0.0.1:5002) for MSG-301.
+[2026-11-16T05:43:06.661Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-301 (route: ANC -> SEA, hop: 1, passenger: "Daniel Brooks") via 127.0.0.1:59193 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.662Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-301","node":"SEA","status":"ACK"} from SEA for MSG-301.
+[2026-11-16T05:43:06.662Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59193 after sending MSG-301.
+[2026-11-16T05:43:06.662Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59194.
+[2026-11-16T05:43:06.662Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-302 (from: SEA, layover: nil, to: ANC, hop: 1, passenger: "Maya Lin") from 127.0.0.1:59194.
+[2026-11-16T05:43:06.662Z] [ANC (HUB 127.0.0.1:5001)] [FINAL_ARRIVAL] Passenger "Maya Lin" (MSG-302) arrived at final destination ANC via direct path [SEA -> ANC] (hops: 1).
+[2026-11-16T05:43:06.662Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59194.
+[2026-11-16T05:43:06.663Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59195.
+[2026-11-16T05:43:06.666Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-401 (from: FAI, layover: "ANC", to: BRW, hop: 1, passenger: "Samuel Panik") from 127.0.0.1:59195.
+[2026-11-16T05:43:06.666Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-401 (from: FAI, layover: ANC, to: BRW, passenger: "Samuel Panik"): acting as layover transit, forwarding to final destination BRW (127.0.0.1:5013).
+[2026-11-16T05:43:06.666Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to BRW (127.0.0.1:5013) for MSG-401.
+[2026-11-16T05:43:06.667Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59195.
+[2026-11-16T05:43:06.667Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-401 (route: FAI -> ANC -> BRW, hop: 2, passenger: "Samuel Panik") via 127.0.0.1:59196 -> 127.0.0.1:5013.
+[2026-11-16T05:43:06.669Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-401","node":"BRW","status":"ACK"} from BRW for MSG-401.
+[2026-11-16T05:43:06.669Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59197.
+[2026-11-16T05:43:06.669Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59196 after sending MSG-401.
+[2026-11-16T05:43:06.669Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-402 (from: OTZ, layover: "ANC", to: NME, hop: 1, passenger: "Rosa Ivanoff") from 127.0.0.1:59197.
+[2026-11-16T05:43:06.669Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-402 (from: OTZ, layover: ANC, to: NME, passenger: "Rosa Ivanoff"): acting as layover transit, forwarding to final destination NME (127.0.0.1:5009).
+[2026-11-16T05:43:06.670Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to NME (127.0.0.1:5009) for MSG-402.
+[2026-11-16T05:43:06.670Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59197.
+[2026-11-16T05:43:06.670Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-402 (route: OTZ -> ANC -> NME, hop: 2, passenger: "Rosa Ivanoff") via 127.0.0.1:59198 -> 127.0.0.1:5009.
+[2026-11-16T05:43:06.671Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59199.
+[2026-11-16T05:43:06.671Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-402","node":"NME","status":"ACK"} from NME for MSG-402.
+[2026-11-16T05:43:06.671Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-403 (from: BET, layover: "ANC", to: AKN, hop: 1, passenger: "Kevin Wassillie") from 127.0.0.1:59199.
+[2026-11-16T05:43:06.671Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59198 after sending MSG-402.
+[2026-11-16T05:43:06.672Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-403 (from: BET, layover: ANC, to: AKN, passenger: "Kevin Wassillie"): acting as layover transit, forwarding to final destination AKN (127.0.0.1:5011).
+[2026-11-16T05:43:06.672Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to AKN (127.0.0.1:5011) for MSG-403.
+[2026-11-16T05:43:06.672Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59199.
+[2026-11-16T05:43:06.672Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-403 (route: BET -> ANC -> AKN, hop: 2, passenger: "Kevin Wassillie") via 127.0.0.1:59200 -> 127.0.0.1:5011.
+[2026-11-16T05:43:06.673Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-403","node":"AKN","status":"ACK"} from AKN for MSG-403.
+[2026-11-16T05:43:06.674Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59201.
+[2026-11-16T05:43:06.674Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59200 after sending MSG-403.
+[2026-11-16T05:43:06.674Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-404 (from: DLG, layover: "ANC", to: SCC, hop: 1, passenger: "Laura Berg") from 127.0.0.1:59201.
+[2026-11-16T05:43:06.674Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-404 (from: DLG, layover: ANC, to: SCC, passenger: "Laura Berg"): acting as layover transit, forwarding to final destination SCC (127.0.0.1:5014).
+[2026-11-16T05:43:06.674Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to SCC (127.0.0.1:5014) for MSG-404.
+[2026-11-16T05:43:06.674Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59201.
+[2026-11-16T05:43:06.675Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-404 (route: DLG -> ANC -> SCC, hop: 2, passenger: "Laura Berg") via 127.0.0.1:59202 -> 127.0.0.1:5014.
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59203.
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-404","node":"SCC","status":"ACK"} from SCC for MSG-404.
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-405 (from: CDV, layover: "ANC", to: ADQ, hop: 1, passenger: "Peter Eklund") from 127.0.0.1:59203.
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59202 after sending MSG-404.
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-405 (from: CDV, layover: ANC, to: ADQ, passenger: "Peter Eklund"): acting as layover transit, forwarding to final destination ADQ (127.0.0.1:5007).
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to ADQ (127.0.0.1:5007) for MSG-405.
+[2026-11-16T05:43:06.676Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59203.
+[2026-11-16T05:43:06.677Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-405 (route: CDV -> ANC -> ADQ, hop: 2, passenger: "Peter Eklund") via 127.0.0.1:59204 -> 127.0.0.1:5007.
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-405","node":"ADQ","status":"ACK"} from ADQ for MSG-405.
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59204 after sending MSG-405.
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59205.
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-406 (from: DUT, layover: "ANC", to: ADK, hop: 1, passenger: "Sophia Krukoff") from 127.0.0.1:59205.
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-406 (from: DUT, layover: ANC, to: ADK, passenger: "Sophia Krukoff"): acting as layover transit, forwarding to final destination ADK (127.0.0.1:5006).
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to ADK (127.0.0.1:5006) for MSG-406.
+[2026-11-16T05:43:06.678Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59205.
+[2026-11-16T05:43:06.679Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-406 (route: DUT -> ANC -> ADK, hop: 2, passenger: "Sophia Krukoff") via 127.0.0.1:59206 -> 127.0.0.1:5006.
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-406","node":"ADK","status":"ACK"} from ADK for MSG-406.
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59206 after sending MSG-406.
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59207.
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-407 (from: ADQ, layover: "ANC", to: CDV, hop: 1, passenger: "Evan Lindholm") from 127.0.0.1:59207.
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-407 (from: ADQ, layover: ANC, to: CDV, passenger: "Evan Lindholm"): acting as layover transit, forwarding to final destination CDV (127.0.0.1:5015).
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to CDV (127.0.0.1:5015) for MSG-407.
+[2026-11-16T05:43:06.680Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59207.
+[2026-11-16T05:43:06.681Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-407 (route: ADQ -> ANC -> CDV, hop: 2, passenger: "Evan Lindholm") via 127.0.0.1:59208 -> 127.0.0.1:5015.
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59209.
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-407","node":"CDV","status":"ACK"} from CDV for MSG-407.
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-408 (from: SCC, layover: "ANC", to: OTZ, hop: 1, passenger: "Nina Tagarook") from 127.0.0.1:59209.
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59208 after sending MSG-407.
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-408 (from: SCC, layover: ANC, to: OTZ, passenger: "Nina Tagarook"): acting as layover transit, forwarding to final destination OTZ (127.0.0.1:5008).
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to OTZ (127.0.0.1:5008) for MSG-408.
+[2026-11-16T05:43:06.682Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59209.
+[2026-11-16T05:43:06.684Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-408 (route: SCC -> ANC -> OTZ, hop: 2, passenger: "Nina Tagarook") via 127.0.0.1:59210 -> 127.0.0.1:5008.
+[2026-11-16T05:43:06.684Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-408","node":"OTZ","status":"ACK"} from OTZ for MSG-408.
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59211.
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59210 after sending MSG-408.
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-409 (from: NME, layover: "ANC", to: BET, hop: 1, passenger: "Caleb Okpeaha") from 127.0.0.1:59211.
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-409 (from: NME, layover: ANC, to: BET, passenger: "Caleb Okpeaha"): acting as layover transit, forwarding to final destination BET (127.0.0.1:5010).
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to BET (127.0.0.1:5010) for MSG-409.
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59211.
+[2026-11-16T05:43:06.685Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-409 (route: NME -> ANC -> BET, hop: 2, passenger: "Caleb Okpeaha") via 127.0.0.1:59212 -> 127.0.0.1:5010.
+[2026-11-16T05:43:06.686Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-409","node":"BET","status":"ACK"} from BET for MSG-409.
+[2026-11-16T05:43:06.686Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59213.
+[2026-11-16T05:43:06.687Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59212 after sending MSG-409.
+[2026-11-16T05:43:06.687Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-410 (from: AKN, layover: "ANC", to: DLG, hop: 1, passenger: "Julia Trefon") from 127.0.0.1:59213.
+[2026-11-16T05:43:06.687Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-410 (from: AKN, layover: ANC, to: DLG, passenger: "Julia Trefon"): acting as layover transit, forwarding to final destination DLG (127.0.0.1:5012).
+[2026-11-16T05:43:06.687Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to DLG (127.0.0.1:5012) for MSG-410.
+[2026-11-16T05:43:06.687Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59213.
+[2026-11-16T05:43:06.687Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-410 (route: AKN -> ANC -> DLG, hop: 2, passenger: "Julia Trefon") via 127.0.0.1:59214 -> 127.0.0.1:5012.
+[2026-11-16T05:43:06.688Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-410","node":"DLG","status":"ACK"} from DLG for MSG-410.
+[2026-11-16T05:43:06.688Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59214 after sending MSG-410.
+[2026-11-16T05:43:06.695Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59221.
+[2026-11-16T05:43:06.695Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-601 (from: SEA, layover: "ANC", to: BRW, hop: 1, passenger: "Olivia Hayes") from 127.0.0.1:59221.
+[2026-11-16T05:43:06.695Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-601 (from: SEA, layover: ANC, to: BRW, passenger: "Olivia Hayes"): acting as layover transit, forwarding to final destination BRW (127.0.0.1:5013).
+[2026-11-16T05:43:06.695Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to BRW (127.0.0.1:5013) for MSG-601.
+[2026-11-16T05:43:06.696Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59221.
+[2026-11-16T05:43:06.696Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-601 (route: SEA -> ANC -> BRW, hop: 2, passenger: "Olivia Hayes") via 127.0.0.1:59222 -> 127.0.0.1:5013.
+[2026-11-16T05:43:06.697Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-601","node":"BRW","status":"ACK"} from BRW for MSG-601.
+[2026-11-16T05:43:06.697Z] [ANC (HUB 127.0.0.1:5001)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59223.
+[2026-11-16T05:43:06.697Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59222 after sending MSG-601.
+[2026-11-16T05:43:06.697Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received packet MSG-602 (from: OTZ, layover: "ANC", to: SEA, hop: 1, passenger: "Benjamin Park") from 127.0.0.1:59223.
+[2026-11-16T05:43:06.697Z] [ANC (HUB 127.0.0.1:5001)] [HUB_ROUTING] Hub ANC interpreted MSG-602 (from: OTZ, layover: ANC, to: SEA, passenger: "Benjamin Park"): acting as layover transit, forwarding to final destination SEA (127.0.0.1:5002).
+[2026-11-16T05:43:06.697Z] [ANC (HUB 127.0.0.1:5001)] [CLIENT_CONNECT] Connecting TCP client from ANC to SEA (127.0.0.1:5002) for MSG-602.
+[2026-11-16T05:43:06.698Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59223.
+[2026-11-16T05:43:06.698Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_SEND] Sending MSG-602 (route: OTZ -> ANC -> SEA, hop: 2, passenger: "Benjamin Park") via 127.0.0.1:59224 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.698Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_RECV] Received {"msg_id":"MSG-602","node":"SEA","status":"ACK"} from SEA for MSG-602.
+[2026-11-16T05:43:06.699Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59224 after sending MSG-602.
+[2026-11-16T05:43:06.699Z] [ANC (HUB 127.0.0.1:5001)] [POLICY_REJECT] Blocked passenger "Out-of-Scope Airport Test" on ANC -> "LAX" (layover: nil, airline: "Alaska Airlines"): Destination airport "LAX" is outside the supported Alaska and Seattle network.
+[2026-11-16T05:43:06.699Z] [ANC (HUB 127.0.0.1:5001)] [POLICY_REJECT] Blocked passenger "Non-Alaska Carrier Test" on ANC -> "SEA" (layover: nil, airline: "Delta Air Lines"): Airline "Delta Air Lines" is outside simulation scope; only Alaska Airlines traffic is permitted.
+[2026-11-16T05:43:06.700Z] [ANC (HUB 127.0.0.1:5001)] [NODE_SHUTDOWN] Detected termination of input for ANC; shutting down TCP server on 127.0.0.1:5001.
+[2026-11-16T05:43:06.702Z] [ANC (HUB 127.0.0.1:5001)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5001.

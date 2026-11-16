@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.620Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_INIT] Initialized SPOKE peer node ADQ (Kodiak Airport); listening on 127.0.0.1:5007.
+[2026-11-16T05:43:06.677Z] [ADQ (SPOKE 127.0.0.1:5007)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59204.
+[2026-11-16T05:43:06.677Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_RECV] Received packet MSG-405 (from: CDV, layover: "ANC", to: ADQ, hop: 2, passenger: "Peter Eklund") from 127.0.0.1:59204.
+[2026-11-16T05:43:06.677Z] [ADQ (SPOKE 127.0.0.1:5007)] [FINAL_ARRIVAL] Passenger "Peter Eklund" (MSG-405) arrived at final destination ADQ via layover path [CDV -> ANC -> ADQ] (hops: 2).
+[2026-11-16T05:43:06.678Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59204.
+[2026-11-16T05:43:06.679Z] [ADQ (SPOKE 127.0.0.1:5007)] [CLIENT_CONNECT] Connecting TCP client from ADQ to ANC (127.0.0.1:5001) for MSG-407.
+[2026-11-16T05:43:06.680Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_SEND] Sending MSG-407 (route: ADQ -> ANC -> CDV, hop: 1, passenger: "Evan Lindholm") via 127.0.0.1:59207 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.681Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_RECV] Received {"msg_id":"MSG-407","node":"ANC","status":"ACK"} from ANC for MSG-407.
+[2026-11-16T05:43:06.681Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59207 after sending MSG-407.
+[2026-11-16T05:43:06.703Z] [ADQ (SPOKE 127.0.0.1:5007)] [NODE_SHUTDOWN] Detected termination of input for ADQ; shutting down TCP server on 127.0.0.1:5007.
+[2026-11-16T05:43:06.703Z] [ADQ (SPOKE 127.0.0.1:5007)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5007.

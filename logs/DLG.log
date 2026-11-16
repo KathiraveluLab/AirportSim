@@ -1,0 +1,11 @@
+[2026-11-16T05:43:06.625Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_INIT] Initialized SPOKE peer node DLG (Dillingham Airport); listening on 127.0.0.1:5012.
+[2026-11-16T05:43:06.673Z] [DLG (SPOKE 127.0.0.1:5012)] [CLIENT_CONNECT] Connecting TCP client from DLG to ANC (127.0.0.1:5001) for MSG-404.
+[2026-11-16T05:43:06.674Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_SEND] Sending MSG-404 (route: DLG -> ANC -> SCC, hop: 1, passenger: "Laura Berg") via 127.0.0.1:59201 -> 127.0.0.1:5001.
+[2026-11-16T05:43:06.674Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_RECV] Received {"msg_id":"MSG-404","node":"ANC","status":"ACK"} from ANC for MSG-404.
+[2026-11-16T05:43:06.675Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59201 after sending MSG-404.
+[2026-11-16T05:43:06.687Z] [DLG (SPOKE 127.0.0.1:5012)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59214.
+[2026-11-16T05:43:06.688Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_RECV] Received packet MSG-410 (from: AKN, layover: "ANC", to: DLG, hop: 2, passenger: "Julia Trefon") from 127.0.0.1:59214.
+[2026-11-16T05:43:06.688Z] [DLG (SPOKE 127.0.0.1:5012)] [FINAL_ARRIVAL] Passenger "Julia Trefon" (MSG-410) arrived at final destination DLG via layover path [AKN -> ANC -> DLG] (hops: 2).
+[2026-11-16T05:43:06.688Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59214.
+[2026-11-16T05:43:06.703Z] [DLG (SPOKE 127.0.0.1:5012)] [NODE_SHUTDOWN] Detected termination of input for DLG; shutting down TCP server on 127.0.0.1:5012.
+[2026-11-16T05:43:06.703Z] [DLG (SPOKE 127.0.0.1:5012)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5012.

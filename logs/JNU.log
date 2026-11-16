@@ -1,0 +1,15 @@
+[2026-11-16T05:43:06.618Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_INIT] Initialized SPOKE peer node JNU (Juneau International Airport); listening on 127.0.0.1:5004.
+[2026-11-16T05:43:06.652Z] [JNU (SPOKE 127.0.0.1:5004)] [CLIENT_CONNECT] Connecting TCP client from JNU to SEA (127.0.0.1:5002) for MSG-105.
+[2026-11-16T05:43:06.652Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_SEND] Sending MSG-105 (route: JNU -> SEA, hop: 1, passenger: "Liam Mercer") via 127.0.0.1:59186 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.652Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_RECV] Received {"msg_id":"MSG-105","node":"SEA","status":"ACK"} from SEA for MSG-105.
+[2026-11-16T05:43:06.652Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59186 after sending MSG-105.
+[2026-11-16T05:43:06.688Z] [JNU (SPOKE 127.0.0.1:5004)] [CLIENT_CONNECT] Connecting TCP client from JNU to SEA (127.0.0.1:5002) for MSG-501.
+[2026-11-16T05:43:06.688Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_SEND] Sending MSG-501 (route: JNU -> SEA -> SIT, hop: 1, passenger: "Isaac Morales") via 127.0.0.1:59215 -> 127.0.0.1:5002.
+[2026-11-16T05:43:06.689Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_RECV] Received {"msg_id":"MSG-501","node":"SEA","status":"ACK"} from SEA for MSG-501.
+[2026-11-16T05:43:06.689Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_CLOSE] Closed TCP client socket 127.0.0.1:59215 after sending MSG-501.
+[2026-11-16T05:43:06.692Z] [JNU (SPOKE 127.0.0.1:5004)] [SERVER_ACCEPT] Accepted incoming TCP connection from peer 127.0.0.1:59218.
+[2026-11-16T05:43:06.692Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_RECV] Received packet MSG-502 (from: KTN, layover: "SEA", to: JNU, hop: 2, passenger: "Rachel Bennett") from 127.0.0.1:59218.
+[2026-11-16T05:43:06.693Z] [JNU (SPOKE 127.0.0.1:5004)] [FINAL_ARRIVAL] Passenger "Rachel Bennett" (MSG-502) arrived at final destination JNU via layover path [KTN -> SEA -> JNU] (hops: 2).
+[2026-11-16T05:43:06.693Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_CLOSE] Closed accepted server-side client socket from 127.0.0.1:59218.
+[2026-11-16T05:43:06.702Z] [JNU (SPOKE 127.0.0.1:5004)] [NODE_SHUTDOWN] Detected termination of input for JNU; shutting down TCP server on 127.0.0.1:5004.
+[2026-11-16T05:43:06.702Z] [JNU (SPOKE 127.0.0.1:5004)] [SOCKET_CLOSE] Closed listening TCP socket 127.0.0.1:5004.
