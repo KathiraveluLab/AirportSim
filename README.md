@@ -17,7 +17,7 @@ Only two airports, Anchorage (`ANC`) and Seattle (`SEA`), act as transit hubs ca
 
 ---
 
-## 2. Question 1: How to Run the Program and Explicit Assumptions
+## 2. How to Run the Program and Explicit Assumptions
 
 ### Requirements and Environment
 
